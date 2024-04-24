@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Category Tabs</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <div class="container">
+        <h1 class="choice_txt">select your choice</h1>
+        <div class="tabs">
+            <button class="tab active" onclick="openTab('Men')">Men</button>
+            <button class="tab" onclick="openTab('Women')">Women</button>
+            <button class="tab" onclick="openTab('Kids')">Kids</button>
+          </div>
+          
+          <div id="Men" class="tab-content">    
+            <div id="Men-cards" class="card-container"></div>
+          </div>
+          
+          <div id="Women" class="tab-content">
+            <div id="Women-cards" class="card-container"></div>
+          </div>
+
+          <div id="Kids" class="tab-content">
+            <div id="Kids-cards" class="card-container"></div>
+          </div>
+    </div>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
